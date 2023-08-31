@@ -1,0 +1,26 @@
+{
+  "name": "BNB Smart Chain Testnet",
+  "chainId": 97,
+  "type": "Testnet",
+  "providers": [
+    {
+      "url": "https://rpc.ankr.com/bsc_testnet_chapel",
+      "type": "JSONRPC",
+      "priority": 1,
+      "eth_getLogsMaxBlocks": 1000
+    },
+    {
+      "url": "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      "type": "JSONRPC",
+      "priority": 2,
+      "eth_getLogsMaxBlocks": 0
+    }
+  ],
+  "contracts": {
+    "assetManager": {
+      "address": "0x93480D0dC6eB14698Ce4ab3B54e536910B103760",
+      "block": 32926584,
+      "priceFeedProxy": []
+    }
+  }
+}

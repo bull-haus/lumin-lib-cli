@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./cli",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
